@@ -74,7 +74,7 @@ class DogRoutesTest {
         DogDTO[] dogs =
                 given()
                 .when()
-                .get(BASE_URL + "/dogs")
+                .get(BASE_URL + "/dog")
                 .then()
                 .log().all()
                 .statusCode(200)
